@@ -66,8 +66,11 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   main {
     flex-direction: column;
+  }
+  .step-box {
+    width: 90%;
   }
 }
